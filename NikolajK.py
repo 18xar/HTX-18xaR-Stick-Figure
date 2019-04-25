@@ -1,6 +1,5 @@
 import arcade
 
-
 def NikolajK(x, y, sizeScale=2):
     sizeX = 20 * sizeScale
     sizeY = 40 * sizeScale
