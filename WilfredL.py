@@ -34,4 +34,4 @@ def WilfredH(x,y):
 
     arcade.run()
 
-WilfredH(200,200)
+WilfredH(0,0)
