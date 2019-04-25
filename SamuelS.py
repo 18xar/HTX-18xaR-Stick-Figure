@@ -3,7 +3,7 @@ import random
 
 
 def dreng(x, y):
-    scale = 10
+    scale = 2
     colorR = random.randint(0, 255)
     colorG = random.randint(0, 255)
     colorB = random.randint(0, 255)
@@ -32,7 +32,7 @@ def dreng(x, y):
 
 
 def pige(x, y):
-    scale = 10
+    scale = 2
     colorR = random.randint(0, 255)
     colorG = random.randint(0, 255)
     colorB = random.randint(0, 255)
