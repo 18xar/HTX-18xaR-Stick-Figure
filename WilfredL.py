@@ -33,5 +33,3 @@ def WilfredH(x,y):
     arcade.finish_render()
 
     arcade.run()
-
-WilfredH(0,0)
