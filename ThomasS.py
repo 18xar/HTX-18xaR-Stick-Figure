@@ -1,5 +1,6 @@
 import arcade
 
+
 def ThomasS (x, y):
     arcade.draw_rectangle_filled(20 + x, 40 + y, 40, 80, (255, 255, 255))
     arcade.draw_circle_filled(35 + x, 45 + y, 3, (0, 0, 255))
@@ -16,12 +17,12 @@ def ThomasS (x, y):
     arcade.draw_ellipse_filled(32 + x, 5 + y, 4, 2, (0, 0, 0))
     arcade.draw_triangle_filled(20 + x, 75 + y, 5 + x, 65 + y, 35 + x, 65 + y, (200, 150, 90))
 
-arcade.open_window(500, 500, "Test")
-arcade.set_background_color((0, 0, 0))
-while (True):
-    arcade.start_render()
-
-    ThomasS(0, 0)
-
-    arcade.finish_render()
-arcade.run()
+# arcade.open_window(500, 500, "Test")
+# arcade.set_background_color((0, 0, 0))
+# while (True):
+#     arcade.start_render()
+#
+#     ThomasS(0, 0)
+#
+#     arcade.finish_render()
+# arcade.run()
