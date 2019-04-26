@@ -9,6 +9,7 @@ from MartinP import *
 from ThomasS import *
 from ChristianW import *
 from OttoJ import *
+from KasperP import *
 import random
 
 arcade.open_window(600, 400, "Wassup")
@@ -17,7 +18,7 @@ arcade.set_background_color(arcade.color.WHITE)
 arcade.start_render()
 
 ListMedFunktioner = [NikolajK, dreng, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, MartinP, ThomasS, ChristianW,
-                     OttoJ]
+                     OttoJ, KasperEBP]
 
 for x in range(0, 600, 40):
     for y in range(0, 400, 80):
