@@ -10,4 +10,4 @@ def KasperEBP(x,y):
     arcade.draw_circle_filled(x+15,y+højde-20,10,(255,255,0))
     arcade.draw_circle_filled(x+14,y+højde-18,2,(0,0,0))
     arcade.draw_arc_filled(x+10,y+højde-22, 10, 3,(255,200,0), 180,270)
-    arcade.draw_line(x+15,y+10,x+20,y+25,(0,0,0))
+    arcade.draw_line(x+15,y+10,x+20,y+25,(0,0,1))
