@@ -3,7 +3,7 @@ import arcade
 
 #billede = arcade.load_texture("C:/Users/Isabella/OneDrive/_Aarhus Tech/Fag/Programmering B/Opgave/_14_billeder/baggrund.png")
 
-arcade.open_window(40, 80, "Animation Window")
+#arcade.open_window(40, 80, "Animation Window")
 
 def IsabellaE(x,y):
 
@@ -11,23 +11,23 @@ def IsabellaE(x,y):
 
     #arcade.start_render()
 
-    arcade.draw_rectangle_filled(x+20, y+50, x+25, y+2, (255, 232, 209))
+    arcade.draw_rectangle_filled(x+20, y+50, 25, 2, (255, 232, 209))
 
-    arcade.draw_rectangle_filled(x+20, y+50, x+10, y+2, (219, 76, 76))
+    arcade.draw_rectangle_filled(x+20, y+50, 10, 2, (219, 76, 76))
 
-    arcade.draw_rectangle_filled(x+20, y+48, x+2, y+25, (219, 76, 76))
+    arcade.draw_rectangle_filled(x+20, y+48, 2, 25, (219, 76, 76))
 
     arcade.draw_circle_filled(x+20, y+65, 10, (255, 232, 209))
 
     arcade.draw_triangle_filled(x+20, y+42, x+10, y+20, x+30, y+20, (219, 76, 76))
 
-    arcade.draw_rectangle_filled(x+18, y+15, x+2, y+10, (255, 232, 209))
+    arcade.draw_rectangle_filled(x+18, y+15, 2, 10, (255, 232, 209))
 
-    arcade.draw_rectangle_filled(x+22, y+15, x+2, y+10, (255, 232, 209))
+    arcade.draw_rectangle_filled(x+22, y+15, 2, 10, (255, 232, 209))
 
-    arcade.draw_rectangle_filled(x+16, y+10, x+4, y+2, (0, 0, 0))
+    arcade.draw_rectangle_filled(x+16, y+10, 4, 2, (0, 0, 0))
 
-    arcade.draw_rectangle_filled(x+24, y+10, x+4, y+2, (0, 0, 0))
+    arcade.draw_rectangle_filled(x+24, y+10, 4, 2, (0, 0, 0))
 
     #arcade.finish_render()
 
