@@ -1,5 +1,6 @@
 def LauritsHMan1(x, y):
-    pointlist1 ={
+    #Woman
+    pointlist1 = {
         (x, y),
         (x+40, y),
         (x, y+80),
@@ -37,5 +38,18 @@ def LauritsHMan1(x, y):
     }
     arcade.draw_polygon_filled(pointlist3, arcade.color.ROYAL_PURPLE)
 
-
+def LauritsHMan2(x, y):
+    #Man
+    pointlist1 = {
+        (x + 40, y),
+        (x + 40, y + 80),
+        (x, y + 80),
+        (x, y),
+    }
+    arcade.draw_polygon_outline(pointlist1, arcade.color.ELECTRIC_CRIMSON)
+    arcade.draw_circle_filled(x + 20, y + 67, 8, arcade.color.OLD_GOLD)
+    arcade.draw_rectangle_filled(x+20, y+40, 4, 40, arcade.color.OLD_GOLD)
+    arcade.draw_rectangle_filled(x+20, y+52, 40, 4, arcade.color.OLD_GOLD)
+    arcade.draw_rectangle_filled(x+28, y+11, 4, 26, arcade.color.OLD_GOLD, 45)
+    arcade.draw_rectangle_filled(x+12, y+11, 4, 26, arcade.color.OLD_GOLD, 315)
 
