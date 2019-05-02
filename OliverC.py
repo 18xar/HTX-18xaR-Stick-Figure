@@ -2,8 +2,6 @@ import arcade
 
 def OliverC(x, y):
     #Position
-    x = 0
-    y = 0
 
     #Størrelse SKAL IKKE ÆNDRES
     w = 40
