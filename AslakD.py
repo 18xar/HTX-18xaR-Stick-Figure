@@ -1,6 +1,3 @@
-import arcade
-
-
 def AslakD(x, y):
     # flag
     arcade.draw_triangle_filled(x, y, x + 40, y + 80, x + 40, y + 0, (0, 0, 0))

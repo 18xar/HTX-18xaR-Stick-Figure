@@ -11,7 +11,11 @@ from ThomasS import *
 from ChristianW import *
 from OttoJ import *
 from KasperP import *
-from OliverC import *
+from DanielP import *
+from OskarK import *
+from KristofferW import *
+from LauritsH import *
+from BusterD import *
 import random
 
 arcade.open_window(600, 400, "Wassup")
@@ -20,8 +24,9 @@ arcade.set_background_color(arcade.color.WHITE)
 arcade.start_render()
 
 # Liste med alle de funktioner som kan vælges imellem.
-ListMedFunktioner = [NikolajK, dreng, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, MartinP, ThomasS, ChristianW,
-                     OttoJ, KasperEBP, OliverC]
+ListMedFunktioner = [NikolajK, dreng, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, ThomasS, ChristianW,
+                     OttoJ, KasperEBP, DanielP1, DanielP2, OskarK, KristofferW, LauritsHMan1, LauritsHMan2, BusterD,
+                     MartinP]
 
 # Kører igennem alle koordinatsættene på skærmen.
 for x in range(0, 600, 40):
