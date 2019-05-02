@@ -1,3 +1,4 @@
+import arcade
 def BusterD(x, y):
     # baggrund
     arcade.draw_rectangle_filled(10 * 2 + x, 20 * 2 + y, 20 * 2, 40 * 2, (102, 204, 255))
