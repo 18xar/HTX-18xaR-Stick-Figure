@@ -6,8 +6,7 @@ def OskarK(x,y):
     w=40
     h=80
 
-    arcade.open_window(w, h, "stikfigure")
-    arcade.set_background_color((0, 0, 255))
+
 
     arcade.draw_rectangle_filled(w/2+x, h/2+y, w, h/2,(100,173,200))
 
