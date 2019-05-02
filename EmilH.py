@@ -1,6 +1,3 @@
-
-
-
 def EmilH(X, Y):
 	import arcade
 	bWidth = 60
