@@ -11,6 +11,7 @@ from ThomasS import *
 from ChristianW import *
 from OttoJ import *
 from KasperP import *
+from DanielP import *
 import random
 
 arcade.open_window(600, 400, "Wassup")
@@ -20,7 +21,7 @@ arcade.start_render()
 
 # Liste med alle de funktioner som kan vælges imellem.
 ListMedFunktioner = [NikolajK, dreng, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, MartinP, ThomasS, ChristianW,
-                     OttoJ, KasperEBP]
+                     OttoJ, KasperEBP, DanielP1, DanielP2]
 
 # Kører igennem alle koordinatsættene på skærmen.
 for x in range(0, 600, 40):
