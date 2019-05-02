@@ -37,3 +37,15 @@ def DanielP2(x,y,size):
     arcade.draw_arc_outline(x+10*size,y+40*size-10*size,2*size,2*size,color,180,360,bw)
     arcade.draw_arc_outline(x+10*size,y+18*size,6*size,4*size,color,0,180,bw)
 
+import arcade
+arcade.open_window(400,400,"test")
+
+while True:
+    arcade.start_render()
+
+    DanielP1(100,200,2)
+    DanielP2(300, 200, 2)
+
+    arcade.finish_render()
+
+
