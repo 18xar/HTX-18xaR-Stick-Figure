@@ -1,4 +1,4 @@
-import arcade
+
 def KristofferW (x,y):
 
 
@@ -16,14 +16,7 @@ def KristofferW (x,y):
 
     arcade.draw_arc_filled(x+20,y+62,6,4,arcade.color.DARK_YELLOW,90,0)
 
-    arcade.draw_line(x+17, y+58, x+23, y+58, arcade.color.BLACK, 2)
-    arcade.draw_circle_filled(x+17, y+63, 1, arcade.color.BLACK)
-    arcade.draw_circle_filled(x+23, y+63, 1, arcade.color.BLACK)
-
-    #arcade.draw_line(x+20, y+25, x+17, y+20, arcade.color.BLACK,4)
-
-
-
+import arcade
 
 arcade.open_window(600,600,"ArcadeWindow")
 arcade.set_background_color((255,255,255))
