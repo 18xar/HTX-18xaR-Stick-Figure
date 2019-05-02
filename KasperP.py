@@ -1,6 +1,3 @@
-import arcade
-
-
 def KasperEBP(x,y):
     brede = 40
     højde = 80
