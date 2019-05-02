@@ -16,14 +16,3 @@ def KristofferW (x,y):
 
     arcade.draw_arc_filled(x+20,y+62,6,4,arcade.color.DARK_YELLOW,90,0)
 
-import arcade
-
-arcade.open_window(600,600,"ArcadeWindow")
-arcade.set_background_color((255,255,255))
-arcade.start_render()
-
-
-KristofferW (300,300)
-
-arcade.finish_render()
-arcade.run()
