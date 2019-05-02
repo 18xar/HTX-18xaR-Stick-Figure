@@ -19,3 +19,6 @@ def AndreasP(x, y):
     arcade.draw_line(x + 34, y + 52, x + 36, y + 64, arcade.color.BLACK, 2)
     arcade.draw_line(x + 20, y + 45, x + 6, y + 52, arcade.color.BLACK, 2)
     arcade.draw_line(x + 6, y + 52, x + 4, y + 64, arcade.color.BLACK, 2)
+
+
+
