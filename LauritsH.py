@@ -1,3 +1,4 @@
+import arcade
 def LauritsHMan1(x, y):
     #Woman
     pointlist1 = (
