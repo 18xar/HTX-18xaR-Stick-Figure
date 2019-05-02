@@ -1,8 +1,5 @@
-import arcade
-import random
 
-
-def dreng(x, y):
+def SamuelS1(x, y):
     scale = 2
     colorR = random.randint(0, 255)
     colorG = random.randint(0, 255)
@@ -31,7 +28,7 @@ def dreng(x, y):
     arcade.draw_arc_outline(10 * scale + x, 29 * scale + y, 2, 1.5, (0, 0, 0), 180, 360)
 
 
-def pige(x, y):
+def SamuelS2(x, y):
     scale = 2
     colorR = random.randint(0, 255)
     colorG = random.randint(0, 255)
