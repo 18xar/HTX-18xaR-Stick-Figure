@@ -1,3 +1,5 @@
+import random
+import arcade
 
 def SamuelS1(x, y):
     scale = 2
