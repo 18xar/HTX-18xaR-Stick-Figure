@@ -17,7 +17,7 @@ arcade.set_background_color(arcade.color.WHITE)
 
 arcade.start_render()
 
-ListMedFunktioner = [NikolajK, dreng, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, MartinP, ThomasS, ChristianW,
+ListMedFunktioner = [NikolajK, pige, AndreasP, LuccasS1, LuccasS2, AslakD, VictorC, MartinP, ThomasS, ChristianW,
                      OttoJ, KasperEBP]
 
 for x in range(0, 600, 40):
