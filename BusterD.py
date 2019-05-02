@@ -1,4 +1,3 @@
-import arcade
 
 def BusterD (x,y):
 
