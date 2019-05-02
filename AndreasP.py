@@ -1,3 +1,6 @@
+import arcade
+
+
 def AndreasP(x, y):
     # BACKGROUND
     arcade.draw_rectangle_filled(x + 20, y + 50, 40, 60, arcade.color.AIR_FORCE_BLUE)
