@@ -1,166 +1,34 @@
+import math
+import arcade
 
-# Created by https://www.gitignore.io/api/linux,macos,windows,pycharm,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=linux,macos,windows,pycharm,visualstudiocode
+#billede = arcade.load_texture("C:/Users/Isabella/OneDrive/_Aarhus Tech/Fag/Programmering B/Opgave/_14_billeder/baggrund.png")
 
-### Linux ###
-*~
+arcade.open_window(40, 80, "Animation Window")
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+def IsabellaE(x,y):
 
-# KDE directory preferences
-.directory
+    arcade.set_background_color((136,252,146))
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+    #arcade.start_render()
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+    arcade.draw_rectangle_filled(x+20, y+50, 25, 2, (255, 232, 209))
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+    arcade.draw_rectangle_filled(x+20, y+50, 10, 2, (219, 76, 76))
 
-# Icon must end with two \r
-Icon
+    arcade.draw_rectangle_filled(x+20, y+48, 2, 25, (219, 76, 76))
 
-# Thumbnails
-._*
+    arcade.draw_circle_filled(x+20, y+65, 10, (255, 232, 209))
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+    arcade.draw_triangle_filled(x+20, y+42, 10, 20, 30, 20, (219, 76, 76))
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+    arcade.draw_rectangle_filled(x+18, y+15, 2, 10, (255, 232, 209))
 
-### PyCharm ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+    arcade.draw_rectangle_filled(x+22, y+15, 2, 10, (255, 232, 209))
 
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+    arcade.draw_rectangle_filled(x+16, y+10, 4, 2, (0, 0, 0))
 
-# Generated files
-.idea/**/contentModel.xml
+    arcade.draw_rectangle_filled(x+24, y+10, 4, 2, (0, 0, 0))
 
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+    #arcade.finish_render()
 
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
-
-# File-based project format
-*.iws
-
-# IntelliJ
-out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-# Editor-based Rest Client
-.idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
-
-# JetBrains templates
-**___jb_tmp___
-
-### PyCharm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-# Sonarlint plugin
-.idea/sonarlint
-
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.gitignore.io/api/linux,macos,windows,pycharm,visualstudiocode
+#arcade.run()
