@@ -25,9 +25,9 @@ def LauritsHMan1(x, y):
 
     # there two diffend dresses here. Just turn off one line and turn on the other
     pointlist3 = (
-        (x + 29, y + 32),#
-        (x + 39, y + 1),
         #(x + 29, y + 32),#
+        (x + 39, y + 1),
+        (x + 29, y + 32),#
         (x + 11, y + 32),
         (x + 1, y + 1),
 
