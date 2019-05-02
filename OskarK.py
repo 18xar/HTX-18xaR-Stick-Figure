@@ -34,4 +34,3 @@ def OskarK(x,y):
 
     arcade.run()
 
-OskarK(0,0)
