@@ -1,3 +1,5 @@
+import arcade
+
 def LuccasS1(x, y):
 
     # Draw background
