@@ -21,7 +21,7 @@ def WilfredH(x,y):
     arcade.draw_triangle_outline(x + 20,y + 80,x + 13,y + 70,x + 27,y + 70,(0,0,0),1)
     #body
     arcade.draw_arc_outline(x + 20,y + 49,10,5,(0,0,0),190,350,2,0)
-
+    #staf
     arcade.draw_line(x + 20,y + 50,x + 20,y + 30,(0,0,0),2)
     arcade.draw_line(x + 20,y + 30,x + 30,y + 10,(0,0,0),2)
     arcade.draw_line(x + 20,y + 30,x + 10,y + 10,(0,0,0),2)
