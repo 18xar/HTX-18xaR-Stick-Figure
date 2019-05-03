@@ -1,3 +1,6 @@
+import arcade
+
+
 def OttoJ(x, y):
     xCenter = x + 20
     yCenter = y + 40
