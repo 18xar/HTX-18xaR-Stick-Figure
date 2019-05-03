@@ -1,3 +1,6 @@
+import arcade
+
+
 def Sophus(x,y):
     arcade.draw_rectangle_filled(x+20, y+40, 40, 80, (0, 0, 255))
     arcade.draw_arc_filled(x+22, y+50, 20, 20,

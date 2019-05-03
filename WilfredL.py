@@ -1,3 +1,6 @@
+import arcade
+
+
 def WilfredH(x,y):
     arcade.open_window(600, 400, "Window")
     arcade.set_background_color((255,255,255))
